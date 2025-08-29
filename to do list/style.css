@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    padding: 20px;
+    width: 1200px ;
+    height: 100vh;
+    background-color: #1e3020;
+    margin: 0 auto;
+}
+
+.formList {
+
+    display: flex;
+    justify-content: center;
+
+}
+.todoPlaceholder, .submitList {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 30px;
+    border: 0;
+    height: 40px;
+
+}
+.todoPlaceholder::placeholder {
+    padding: 5px;
+}
+.todoPlaceholder {
+    width: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.submitList {
+    width: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; 
+}
+.submitList {
+    background-color: white;
+}
+.submitList:hover {
+    background-color: grey;
+    color: #1e3020;
+    border: 1px solid black;
+
+}
+.submitList:active {
+    background-color: #1e3020;
+    color: white;
+    transition: 0.5;
+    border: 1px solid black;
+}
+.basket {
+    width: 20px;
+    height: 20px;
+}
+
+.AllToDo {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.ToDoData {
+    line-height: 40px;
+    /* color: white; */
+    font-size: 20px;
+}
+.inputPlaceForlist {
+    margin-top: 50px;
+}
+.DeleteAndChack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
